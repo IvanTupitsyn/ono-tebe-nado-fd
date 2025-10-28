@@ -1,4 +1,4 @@
-.header {
+.header_content {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   padding: 92px 50px 96px 50px;
@@ -17,13 +17,12 @@
   justify-content: center; 
 }
 
-.adress__text {  
+.adress__text {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
-  color: #000000;
+  line-height: 24px;  
 }
 
 .mail__link {
@@ -55,11 +54,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 12px; 
   list-style: circle;
-  gap: 12px;  
 }
 
-.header__menu-link { 
+.header__menu-link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -76,13 +75,13 @@
 }
 
 .header__menu-item {
-  margin-left: 12px;  
+  margin-left: 12px;
 }
 
 .header__logo {
   display: block;
   width: 148px;
-  height: 105px; 
+  height: 105px;
 }
 
 .nav {
@@ -119,8 +118,9 @@
   z-index: 1;
 }
 
-.cover__title {  
+.cover__title{
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   min-height: 385px;
@@ -142,7 +142,7 @@
 .cover__title_third-word {
   margin: 0;
   padding-left: 620px;
-  text-align: end; 
+  text-align: end;
 }
 
 .bet-button {
@@ -180,15 +180,11 @@ color: #FFFFFF;
 word-spacing: 20px;
 }
 
-.cover__title {
-  position: relative;   
-}
-
 .lots {
   padding-top: 180px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 120px;  
+  padding-bottom: 120px;
 }
 
 .lots_heading {
@@ -221,7 +217,7 @@ color: #000000;
   z-index: 1;
 }
 
-.lots__look-more-link {  
+.lots__look-more-link {
   padding-left: 40px;
   font-family: 'Raleway';
   font-style: normal;
@@ -231,7 +227,7 @@ color: #000000;
   color: #000000;
 }
 
-.card__title {  
+.card__title {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -294,18 +290,18 @@ color: #000000;
   margin-bottom: 180px;
 }
  
-.about__column {  
+.about__column {
   display: flex;  
-  min-width:240px; 
+  min-width:240px;
   margin-left: 47px;
-  margin-top: 35px;   
-  height: 240px; 
+  margin-top: 35px;
+  height: 240px;
   background-color: black;
   border-radius: 50%;
   background-image: url("..//images/logo-white.svg");
   background-size: 50%;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
 .about__column-second {  
