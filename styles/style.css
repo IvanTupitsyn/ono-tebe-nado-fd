@@ -10,11 +10,11 @@
 } 
 
 .header__adress {
-  display: flex;   
+  display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   padding-left: 184px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .adress__text {
@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .mail__link {
@@ -54,7 +54,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 12px; 
+  gap: 12px;
   list-style: circle;
 }
 
@@ -91,12 +91,12 @@
 }
 
 .overlay {
-  position: absolute;    
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;  
-  z-index: 0; 
+  bottom: 0;
+  z-index: 0;
   box-sizing: border-box;
   background: #000000;
   opacity: 0.6;
@@ -118,7 +118,7 @@
   z-index: 1;
 }
 
-.cover__title{
+.cover__title {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -285,13 +285,13 @@ color: #000000;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   grid-template: repeat(1, 1fr) / repeat(2, 1fr);
   margin-bottom: 180px;
 }
  
 .about__column {
-  display: flex;  
+  display: flex;
   min-width:240px;
   margin-left: 47px;
   margin-top: 35px;
@@ -304,7 +304,7 @@ color: #000000;
   background-position: center;
 }
 
-.about__column-second {  
+.about__column-second {
   padding-top: 133px;
   padding-left: 72px;
 }
@@ -362,7 +362,7 @@ color: #000000;
   flex-direction: column;
 }
 
-.footer__social-list {  
+.footer__social-list {
   display: flex;
   width: 240px;
   justify-self: end;
