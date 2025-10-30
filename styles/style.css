@@ -16,9 +16,8 @@
 }
 
 .adress_position {
-  justify-self: start;  
+  justify-self: start;
 }
-
 
 .adress__text {
   font-family: Raleway, sans-serif;
@@ -254,7 +253,7 @@
 }
 
 .card_type_film {
-  background-image: url("../images/card-lot-01.jpg");  
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
@@ -343,7 +342,7 @@
 
 .footer__social-list-item {
   justify-self: flex-start;  
-  list-style:none;
+  list-style: none;
 }
 
 .footer__social-icon {
